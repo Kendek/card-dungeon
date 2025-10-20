@@ -1,8 +1,15 @@
-import React from 'react'
+import type { cardType } from "../App"
 
-const Card = () => {
+
+const Card = (props: cardType) => {
   return (
-    <div>Card</div>
+    <div className="card">
+      <span>{props.enemyIcon}</span>
+      
+      <h1>Level {props.level}</h1>
+      <p>Reward: {props.revard}</p>
+      <p>Penalty: {props.penalty}</p>
+    </div>
   )
 }
 

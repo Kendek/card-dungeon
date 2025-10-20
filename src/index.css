@@ -3,3 +3,141 @@
   margin: 0;
   padding: 0;
 }
+
+.card
+{
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  >span
+  {
+    font-size: 100px;
+  }
+
+  >h1
+  {
+    margin-bottom: 25px;
+  }
+
+  >p
+  {
+    font-size: 20px;
+  }
+}
+
+.container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center space-between;
+
+  flex-direction: row;
+
+  height: 100vh;
+  width: 100%;
+  
+  gap: 30px;
+}
+
+.talon
+{
+  width: 40vw;
+  height: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  gap: 20px;
+
+  .talonCardsContainer
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    gap: 20px;
+
+    >div
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      gap: 20px;
+
+      >button
+      {
+        border: 2px solid black;
+        border-radius: 10%;
+        background-color: transparent;
+
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+.centerSec
+{
+  width: 30vw;
+  height: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  gap: 20px;
+
+  >button
+  {
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: transparent;
+
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+.rightSec
+{
+  width: 30vw;
+  height: 80%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 20px;
+
+  >img
+  {
+    height: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+
+  >span
+  {
+    font-size: 20px;
+  }
+}
